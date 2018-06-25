@@ -45,3 +45,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+/libhb/libUtil/ORBIS_Debug
+/libhb/sce_module
+
+# Visual C++ cache files
+ipch/
+/libhb/*.aps
+*.ncb
+/libhb/*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+
