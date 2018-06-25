@@ -202,10 +202,10 @@ int LibHomebrew::Application::UserInfo::update(ssg::GraphicsContext *graphicsCon
 		} else if (padContext->isButtonPressed(ssi::kButtonOptions, ssi::kButtonEventPatternAny)) {
 			input = ssi::kButtonOptions;
 			Console::SetUserInput(ssi::kButtonOptions);
-		} else {
+		}else {
 			input = ssi::kButtonNone;
 			Console::SetUserInput(ssi::kButtonNone);
-		}		
+     	}		
 	}
 	return SCE_OK;
 }
@@ -367,7 +367,8 @@ int LibHomebrew::Application::update(void) {
 	if (isPlaying) {
 		int ret;
 		(void)ret;
-		int32_t vhandle = Graphics()->getVideoOutHandle();
+		int32_t vhandle = sce::SampleUtil::Graphics::Gnm::GraphicsContextGnm::cast(getGraphicsContext())->getVideoOutHandle();
+		//int32_t vhandle = Graphics()->getVideoOutHandle();
 		sceVideoOutWaitVblank(vhandle);
 		if (player.isPlaying()) {
 			ret = player.update();
@@ -614,7 +615,8 @@ void LibHomebrew::Application::Play(void) {
 	(void)ret;
 	if (strlen(videoPath) > 0) {
 		Console::WriteLine("Trying to run Video...");
-		int32_t vhandle = Graphics()->getVideoOutHandle();
+		int32_t vhandle = sce::SampleUtil::Graphics::Gnm::GraphicsContextGnm::cast(getGraphicsContext())->getVideoOutHandle();
+		//int32_t vhandle = Graphics()->getVideoOutHandle();
 		for (int i = 0; i < 3; i++) sceVideoOutWaitVblank(vhandle);
 		ret = player.start(videoPath);
 		if (ret == SCE_OK) {
@@ -735,7 +737,7 @@ void LibHomebrew::Application::Close(void) { close = true; }
 ssi::Button LibHomebrew::Application::Input(void) { return input; }
 
 // Clear the input if needed.
-void LibHomebrew::Application::ClearInput(void) { input = ssi::kButtonNone; }
+void LibHomebrew::Application::ClearInput(void) { /*input = ssi::kButtonNone; */}
 
 //E Handle UserService events.
 //J UserService のイベントをハンドルします。
