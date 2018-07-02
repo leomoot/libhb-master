@@ -50,11 +50,11 @@ Temporary Items
 /libhb/sce_module
 
 # Visual C++ cache files
-ipch/
+/libhb/ipch/
 /libhb/*.aps
-*.ncb
+/libhb/*.ncb
 /libhb/*.opendb
-*.opensdf
-*.sdf
-*.cachefile
+/libhb/*.opensdf
+/libhb/*.sdf
+/libhb/*.cachefile
 
