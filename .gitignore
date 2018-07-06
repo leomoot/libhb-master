@@ -58,3 +58,9 @@ Temporary Items
 /libhb/*.sdf
 /libhb/*.cachefile
 
+
+libhb/\.vs/libHomebrew/v14/\.suo
+
+libhb/libHomebrew\.VC\.db
+
+libhb/\.vs/
