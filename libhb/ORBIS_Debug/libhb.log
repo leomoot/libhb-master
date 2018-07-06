@@ -1,0 +1,44 @@
+﻿  application.cpp
+C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\application.cpp(63,12): warning : unused variable 'count' [-Wunused-variable]
+C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\application.cpp(68,12): warning : unused variable 'intervalShowen' [-Wunused-variable]
+  console.cpp
+  In file included from C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\console.cpp:23:
+C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb/lv2.h(47,9): warning : 'TRACEBUF' macro redefined [-Wmacro-redefined]
+  C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\include\sys/queue.h(136,9):  note: previous definition is here
+  file_info.cpp
+  logger.cpp
+  ps4_process.cpp
+  In file included from C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\ps4_process.cpp:24:
+  In file included from C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb/unjail.h:19:
+C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb/lv2.h(47,9): warning : 'TRACEBUF' macro redefined [-Wmacro-redefined]
+  C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\include\sys/queue.h(136,9):  note: previous definition is here
+  ps4_directory.cpp
+  ps4_file.cpp
+  ps4_forms.cpp
+C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\ps4_forms.cpp(171,42): warning : destructor called on non-final 'PS4Forms::WidgetBase' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+  C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\ps4_forms.cpp(171,48):  note: qualify call to silence this warning
+C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\ps4_forms.cpp(1276,36): warning : destructor called on non-final 'PS4Forms::Form' that has virtual functions but non-virtual destructor [-Wdelete-non-virtual-dtor]
+  C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\ps4_forms.cpp(1276,42):  note: qualify call to silence this warning
+  In file included from C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\ps4_forms.cpp:17:
+C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb/ps4_forms.h(48,29): warning : private field 'closed' is not used [-Wunused-private-field]
+  ps4_message_box.cpp
+  ps4_network.cpp
+  swiss_knife.cpp
+  syscall.cpp
+  syscalls.cpp
+  tty.cpp
+  lv2.c
+  In file included from C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\lv2.c:16:
+C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb/lv2.h(47,9): warning : 'TRACEBUF' macro redefined [-Wmacro-redefined]
+  C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\include\sys/queue.h(136,9):  note: previous definition is here
+C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\lv2.c(28,21): warning : unused variable '_global_test' [-Wunused-variable]
+  unjail.c
+  In file included from C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb\unjail.c:16:
+  In file included from C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb/unjail.h:19:
+C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\libhb\libhb/lv2.h(47,9): warning : 'TRACEBUF' macro redefined [-Wmacro-redefined]
+  C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\include\sys/queue.h(136,9):  note: previous definition is here
+  libhb.vcxproj -> C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\samples\sample_code\system\ps4_ftp\ORBIS_Debug\libhb.a
+  C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\sce_module\libc.prx
+  1 File(s) copied
+  C:\Program Files (x86)\SCE\ORBIS SDKs\4.500\target\sce_module\libSceFios2.prx
+  1 File(s) copied
